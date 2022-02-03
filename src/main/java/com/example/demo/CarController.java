@@ -12,4 +12,9 @@ public class CarController {
     private String carBrand(){
         return "audi";
     }
+
+    @GetMapping("/model")
+    private String carModel(){
+        return "rs 6";
+    }
 }
